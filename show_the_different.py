@@ -79,7 +79,7 @@ for i in users:
     accounts.append('https://www.instagram.com/' + i.text)
 
 
-result = pd.read_excel('me.xlsx')
+result = pd.read_excel('{name of your xlsx file}')
 a = result.values
 spis = []
 for i in a:
